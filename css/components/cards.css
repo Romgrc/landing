@@ -1,0 +1,101 @@
+/* Your card CSS file */
+
+/*-----CARD CATEGORY-----*/
+.card-category{
+  height: 200px;
+  width: 500px;
+  background-image: url(https://source.unsplash.com/random/500x200);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2)
+  font-weight: bold;
+  margin: 20px;
+}
+
+/*-----CARD PRODUCT-----*/
+.card-product{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2)
+}
+
+.card-content{
+  padding: 15px;
+}
+
+.card-content h2{
+  font-size: 16px;
+}
+
+.card-content p{
+  font-size: 12px;
+  color: rgba(0,0,0,0.8);
+}
+
+
+/*-----CARD TRIP------*/
+.card-trip {
+  margin: 20px;
+  width: 500px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.card-trip-banner{
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 35px;
+  padding: 15px 20px;
+}
+
+.card-trip-banner > p{
+  font-weight: bold;
+  margin: 0;
+}
+.banner-description h2{
+  margin: 0;
+  font-size: 16px;
+}
+
+.banner-description p{
+  margin: 0;
+  font-size: 12px;
+  color: rgba(0,0,0,0.8);
+}
+
+.card-trip-banner .avatar {
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  border-radius: 50%;
+  border: solid white 1px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  margin: 0;
+}
+
+
+/*WHITE CARD */
+
+.white-card {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white-card img {
+  height: 100px;
+}
+
+.white-card p{
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+}
